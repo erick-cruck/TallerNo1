@@ -1,0 +1,501 @@
+/*Fondo*/
+*{
+  margin :0;
+  padding:0;
+}
+html, body{
+  height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #FBD786, #f7797d);
+  background-size: cover;
+  height: 100vh;
+}
+
+/*Login y Registro*/
+  
+.login {
+  width: 320px;
+  height: 455px;
+  background: rgb(0, 0, 0);
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+  border-radius: 2%;
+}
+
+
+.login .logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 50px);
+  opacity: 0.6;
+}
+
+.login h1 {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.login label {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  display: block;
+}
+
+.login input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.login input[type="email"], .login input[type="password"],.login input[type="text"] {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.login input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: linear-gradient(to left, #3a1c71, #d76d77, #ffaf7b);
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.login input[type="submit"]:hover {
+  cursor: pointer;
+  background: #07ffea;
+  color: #000;
+}
+
+.login b {
+  
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 20px;
+  color: darkgrey;
+}
+
+
+.login a {
+
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 20px;
+  color: darkgrey;
+}
+
+.login a:hover {
+  color: #fff;
+}
+
+/*ACERCA DE NOSOTROS*/
+.contenedor {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden;
+  padding: 52px 0;
+}
+
+.texto {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden;
+  padding: 52px 0;
+}
+
+.titulos {
+  text-align: center;
+  font-size: 56px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.subtitulo {
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.parrafo {
+  margin-bottom: 13px;
+  font-weight: 300;
+  text-align: justify;
+  line-height: 24px;
+  color: rgb(24, 16, 16);
+}
+/*PERFIL USUARIO*/
+
+
+.perfil {
+  width:1000px;
+  height: 400px;
+  background: rgb(0, 0, 0);
+  color: #fff;
+  top: 55%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+text-align: center;
+padding: 20px 20px;
+border-radius: 2%;
+}
+
+
+.perfil label {
+  margin: 7;
+  padding: 0;
+  font-weight: bold;
+  display: inline-block;
+  font-size: 17px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.perfil input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.perfil input[type="text"], .perfil input[type="password"] {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 18px;
+}
+
+.logo-perfil{
+  width: 500px;
+  height: 100px;
+  background: rgba(0, 0, 0, 0.493);
+  color: #fff;
+  top: 20%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 6%;
+  
+}
+.logo-perfil .logo-usuario{
+height: 70px;
+width: 70px;
+}
+
+.logo-perfil h1{
+ text-decoration: none;
+ color: #fff;
+ font-size: 30px;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.perfil input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: linear-gradient(to left, #3a1c71, #d76d77, #ffaf7b);
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.perfil input[type="submit"]:hover {
+  cursor: pointer;
+  background: #07ffea;
+  color: #000;
+}
+
+/*Pagina de error 404*/
+.error {
+  width:900px;
+  height: 400px;
+  background: rgba(0, 0, 0, 0.151);
+  color: #fff;
+  top: 50%;
+  left: 30%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+text-align: center;
+padding: 20px 20px;
+border-radius: 2%;
+}
+
+.error p {
+  margin-bottom: 17px;
+  font-weight: 300;
+  text-align: justify;
+  line-height: 30px;
+  color: rgb(24, 16, 16);
+}
+
+.error h1 {
+  margin-bottom: 20px;
+  font-weight: 300;
+  text-align: center;
+  line-height: 30px;
+  color: rgb(24, 16, 16);
+}
+
+/*PAGINA DE INICIO*/
+.contenedor-inicio {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden;
+  padding: 10px 0;
+  text-align: center;
+
+}
+
+.contenedor-inicio .subtitulo-inicio {
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 1px;
+  font-weight: 500;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.contenedor-inicio .titulo-inicio {
+  text-align: center;
+  font-size: 56px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+}
+
+.automoviles{
+
+    margin: auto;
+    overflow: hidden;
+    padding: 10px 0;
+    width: 1200px;
+  height: 390px;
+  background: rgba(0, 0, 0, 0.151);
+  color: #fff;
+  top: 58%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+text-align: center;
+border-radius: 1%;
+}
+
+.automoviles h1{
+  font-weight: 200;
+  text-align: center;
+  line-height: 30px;
+  color: rgb(24, 16, 16);
+  margin:35px;
+  margin-top:4px ;
+  display: inline-block;
+}
+
+.automoviles p{
+font-size: 20px;
+  text-align: center;
+  color: rgb(24, 16, 16);
+  margin:10px;
+  margin-top:1px ;
+  display: inline-block;
+}
+
+
+.automoviles .tesla{
+  width: 300px;
+  height: 200px;
+  margin: 20;
+  margin-top:1px ;
+display: inline-block;
+transition: all 2s;
+border:2px solid black;
+}
+
+
+.automoviles input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: linear-gradient(to left, #3a1c71, #d76d77, #ffaf7b);
+  color: #fff;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+.automoviles input[type="submit"]:hover {
+  cursor: pointer;
+  background: #07ffea;
+  color: #000;
+}
+
+/*PRODUCTOS*/
+*{
+  box-sizing: border-box;
+}
+
+.seccion2{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px 20px;
+  background: rgba(255, 255, 255, 0.151);
+  overflow: hidden;
+top: 135%;
+left: 50%;
+position: absolute;
+  transform: translate(-50%, -50%);
+border-radius: 1%;  
+}
+
+.seccion1{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px 20px;
+  background: rgba(255, 255, 255, 0.151);
+  overflow: hidden;
+top: 60%;
+left: 50%;
+position: absolute;
+transform: translate(-50%, -50%);
+border-radius: 1%;  
+}
+div h2{
+text-align: center;
+  width: 100%;
+  color: rgb(0, 0, 0);
+  font-family: monospace;
+  font-size: 30px;
+  display: inline-block;
+  margin: 10px;
+}
+.card{
+  width: 33.333333%;
+}
+
+.estilo .img-container{
+  overflow: hidden;
+  height: 350px;
+  position: center;
+}
+.estilo .img-container img{
+  height: 320px;
+  width: 90%;
+  position: center;
+  transition: all 0.5s;
+}
+.estilo:hover .img-container img{
+  transform: scale(1.2);
+}
+  
+
+.card p{
+  font-size: 20px;
+    text-align: center;
+    color: rgb(24, 16, 16);
+    margin:1px;
+    margin-top:20px ;
+    display: inline-block;
+  }
+
+  @media screen and (max-width:700px) {
+    section {
+        width: 40%;
+    }
+    .card {
+      width: 20%;
+  }
+
+}
+
+
+/*CARRITO COMPRAS*/
+.carrito-compras {
+  width: 320px;
+  height: 375px;
+  background: rgba(255, 255, 255, 0.116);
+  color: #fff;
+  top: 60%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+  border-radius: 2%;
+}
+
+
+.carrito-compras .logo {
+  width: 270px;
+  height: 200px;
+  position: center;
+  top: 50px;
+  left: calc(50% - 50px);
+ 
+}
+
+.carrito-compras h1 {
+  margin-top: -50px;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.carrito-compras label {
+  margin: 1;
+  padding: 0;
+  font-weight: bold;
+  display: inline-block;
+  font-size: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:black;
+}
+
+.carrito-compras input[type="submit"] {
+
+  border: none;
+  outline: none;
+  width: 275px;
+  height: 40px;
+  background: linear-gradient(to left, #3a1c71, #d76d77, #ffaf7b);
+  color: #fff;
+  font-size: 20px;
+  border-radius: 10px;
+  
+
+}
+
+.carrito-compras input[type="submit"]:hover {
+  cursor: pointer;
+  background: #07ffea;
+  color: #000;
+}
